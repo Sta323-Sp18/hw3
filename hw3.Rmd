@@ -1,0 +1,58 @@
+---
+title: "Sta 323 - HW3 - Spring 2018"
+output: rmarkdown::html_document
+---
+
+Due on Tuesday, February 20th by 11:59 pm.
+
+<br/>
+
+### Data
+
+```{r}
+f1 = readRDS(file="f1.rds")
+```
+
+
+<br/>
+
+### Task 1 - Describe the data
+
+Briefly describe the structure of the `f1` object, in particular you should address what information is contained in each level of the list of lists as well as comment on any interesting or unusual features of these data.
+
+<!-- Text  below -->
+
+
+<br/>
+
+### Task 2 - Driver points
+
+```{r}
+
+```
+
+<br/>
+
+### Task 3 - Constructor points
+
+```{r}
+
+```
+
+<br/>
+
+### Task 4 - Visualize the season (driver)
+
+```{r}
+
+```
+
+<br/>
+
+### Task 5 - Visualize the season (constructor)
+
+```{r}
+
+```
+
+<br/>
