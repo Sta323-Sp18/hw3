@@ -7,6 +7,7 @@ allowed_files = c("hw3.Rmd",
                   "README.md",
                   "wercker.yml",
                   "f1.rds",
+                  "f1.json",
                   ".gitignore")
 
 files = dir()
