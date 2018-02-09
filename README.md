@@ -21,7 +21,7 @@ The data is structured as a list of lists of lists of lists and so on, it is up 
 
 Briefly describe the structure of the `f1` object, in particular you should address what information is contained in each level of the list of lists as well as comment on any interesting or unusual features of these data.
 
-### Task 2 - Driver points
+### Task 2 - Driver standing
 
 Using these data construct a table showing the World Drivers' Championship standings for this F1 season. This table should resemble the results available on [Wikipedia](https://en.wikipedia.org/wiki/2015_Formula_One_season#World_Drivers.27_Championship_standings). Your data frame should also have the same 21 columns: Driver name, finishing position for all 19 races, and their overall points total for the season. Failure to finish for any reason (did not start, did not finish, disqualified, etc.) should be coded as an `NA`. Race finishes and points total should all have an integer type. Your data frame should be sorted by points total, but you do not need to include any additional logic to handle ties.
 
@@ -31,9 +31,9 @@ Using these data construct a table showing the World Constructors' Championship 
 
 ### Task 4 - Visualize the season (driver)
 
-Using the data frame created in task 2, construct a visualization comparing the 21 drivers that shows their *cumulative* points earned throughout the 2015 season. This plot should have cumulative points on the y-axis and race on the x-axis with driver identified by color or some other aesthetic. 
+Construct a data frame similar to the one used in task 2, but instead containing driver points for each race. Using this data frame build a visualization comparing the 21 drivers that shows their *cumulative* points earned throughout the 2015 season. This plot should have cumulative points on the y-axis and race on the x-axis with driver identified by color and/or some other aesthetic. 
 
 ### Task 5 - Visualize the season (constructor)
 
-Using the data frame created in task 3, construct a visualization comparing the 10 teams that shows their *cumulative* points earned throughout the 2015 season. This plot should have cumulative points on the y-axis and race on the x-axis with team/constructor identified by color or some other aesthetic. 
+Using the data frame created in task 3, construct a visualization comparing the 10 teams that shows their *cumulative* points earned throughout the 2015 season. This plot should have cumulative points on the y-axis and race on the x-axis with team/constructor identified by color and/or some other aesthetic. 
 
